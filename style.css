@@ -26,37 +26,42 @@ main {
     position: absolute;
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 250px;
-    height: 500px;
+    width: 311px;
+    height: 627px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%); 
+}
+
+#tela {
+    position: relative;
+    top: 81px;
+    left: 22px;
+    width: 266px;
+    height: 470px;
 }
 
 #redes-sociais {
-    position: absolute;
-    width: 80px;
-    height: 50vh;
-    display: block;
-    padding: 10px 0vw 20px 94vw;
+    text-align: right;
 }
 
 #redes-sociais img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    padding: 8px;
+    margin: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.489);
+    box-sizing: border-box;
 }
 
-#tela {
-    position: relative;
-    top: 64px;
-    left: 19px;
-    width: 211px;
-    height: 375px;
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.605);
+    transition: transform .5s, border 1s, box-shadow 1s;
 }
+
+
 
 
 
